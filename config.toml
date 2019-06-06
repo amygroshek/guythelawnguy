@@ -1,0 +1,219 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Guy the Lawn Guy"
+theme = "hugo-icon"
+
+# Metadata
+[params]
+  author = "Your name"
+  description = "Cool description"
+  keywords = "guy, lawn, mora, minnesota, mow, rake, chainsaw, wood"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Guy the Lawn Guy"
+  description = "Lawn maintenance and light wood cutting near Mora, MN"
+
+# Navigation section
+[params.nav]
+  mission = "Services"
+  # services = "Services"
+  team = "About Guy"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_4.jpg"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "green"
+    title = "GREEN"
+    subtitle = "Lawn cleanup and maintenance services."
+    description = "<p>I offer a variety of lawn cleanup and maintenance services. Contact me for a fee estimate.</p><ul><li>Spring cleanup</li><li>Weekly or bi-weekly mowing</li><li>Fall leaf mulching or bagging and removal</li></ul><br><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 2
+    name = "wood"
+    title = "WOOD"
+    subtitle = "Experienced wood cutting and removal."
+    description = "<p>Have a downed tree you'd like to get rid of? Need logs chunked? While not an arborist, I offer brush and downed tree cutting and removal.</p><ul class=''><li>Wood cutting</li><li>Brush cutting</li><li>Shrub trimming</li><li>Hauling</li></ul><br><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+  [[params.mission.item]]
+    weight = 3
+    name = "white"
+    title = "WHITE"
+    subtitle = "Snow removal and roof raking."
+    description = "<p>I also offer limited roof raking and sidewalk snow removal services. Contact me for a free estimate.</p><ul class=''><li>Roof raking</li><li>Sidewalk snow removal</li></ul><br><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+
+# Services section
+[params.services]
+  enable = false
+  video = false
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Services"
+  description = "I offer a variety of services to select clients."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "MOW"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "CUT"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "SNOW"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  # [[params.services.item]]
+  #   icon = "icon-pencil"
+  #   title = "Copyrighting"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  # [[params.services.item]]
+  #   icon = "icon-rocket"
+  #   title = "Load Fast"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  # [[params.services.item]]
+  #   icon = "icon-support"
+  #   title = "Customer Support"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Work section
+[params.work]
+  enable = false
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
+
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
+
+# Team section
+[params.team]
+  enable = true
+  title = "About the Team"
+  # description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.team.item]]
+    name = "Guy"
+    position = "The Lawn Guy"
+    # description = ""
+    img = "images/guy.jpg"
+    # email = "guythelawnguy[at]gmail.com"
+    # telephone = "320-679-3374"
+    # facebook = "#"
+    # twitter = "#"
+    # dribbble = "#"
+    # instagram = "#"
+    # github = "#"
+    # linkedin = "#"
+    # whatsapp = "#"
+
+  [[params.team.item]]
+    name = "Sandy"
+    position = "Ride-along / Seat Warmer"
+    # description = "Naps in pickup"
+    img = "images/sandy.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+  # [[params.team.item]]
+  #   name = "John Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   email = "#"
+  #   telephone = "#"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
+  #   whatsapp = "#"
+
+# Contact section
+[params.contact]
+  enable = true
+  title = "Contact Guy"
+  message = "Contact Guy to get started. Call, email, or use the form below!"
+  name_placeholder = "Your name"
+  email_placeholder = "Your email"
+  email_disclaimer = "We'll never share your email with anyone else."
+  message_placeholder = "Please enter a message."
+  button_text = "Submit"
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<small>&copy; Guy Groshek 2019 Onwards.<br>Maintained with &#9825; by <a href='https://hire.amygroshek.com'>Amy Groshek</a><br>Image Credits: Lan Zhiyi, Maddy Baker, Mitchel Boot, Alex Jones, and Jaron Whelan on Unsplash<br>"
+  email = "guythelawnguy@gmail.com"
+  phone = "320-679-3374"
+  # github = "#"
+  # twitter = "#"
+  # facebook = "#"
+  # vine = "#"
+  # linkedin = "#"
+  # instagram = "#"
+  
