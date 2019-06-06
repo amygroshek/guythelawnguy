@@ -19,8 +19,8 @@ theme = "hugo-icon"
 [params.nav]
   mission = "Services"
   # services = "Services"
-  team = "About Guy"
-  contact = "Get In Touch"
+  team = "About"
+  contact = "Contact"
   # Include logo instead if HOME:
   # logo = "path/to/logo"
 
