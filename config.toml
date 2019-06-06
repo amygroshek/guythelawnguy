@@ -45,7 +45,7 @@ theme = "hugo-icon"
     name = "green"
     title = "GREEN"
     subtitle = "Lawn cleanup and maintenance services."
-    description = "<p>I offer a variety of lawn cleanup and maintenance services. Contact me for a fee estimate.</p><ul><li>Spring cleanup</li><li>Weekly or bi-weekly mowing</li><li>Fall leaf mulching or bagging and removal</li></ul><br><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    description = "<p>I offer a variety of lawn cleanup and maintenance services. Contact me for a fee estimate.</p><ul><li>Spring cleanup</li><li>Mowing</li><li>Fall leaf mulching or bagging and removal</li></ul><br><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
