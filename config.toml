@@ -2,6 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Guy the Lawn Guy"
 theme = "hugo-icon"
+googleAnalytics = "UA-141790126-1"
 
 # Metadata
 [params]
