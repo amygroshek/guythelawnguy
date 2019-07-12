@@ -8,13 +8,13 @@ googleAnalytics = "UA-141790126-1"
 [params]
   author = "Your name"
   description = "Cool description"
-  keywords = "guy, lawn, mora, minnesota, mow, rake, chainsaw, wood"
+  keywords = "guy, lawn, lawn care, lawn maintenance, mowing, mow, mora, mn, minnesota, rake, chainsaw, wood, brush, haul, prune"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "Guy the Lawn Guy"
-  description = "Lawn maintenance and light wood cutting near Mora, MN"
+  description = "Lawn maintenance and light wood cutting near Mora, Minnesota"
 
 # Navigation section
 [params.nav]
@@ -217,4 +217,3 @@ googleAnalytics = "UA-141790126-1"
   # vine = "#"
   # linkedin = "#"
   # instagram = "#"
-  
